@@ -1,0 +1,10 @@
+create database atm;
+
+use atm;
+
+create table registration(
+form_num varchar(20), name varchar(30), fathers_name varchar(30), dob varchar(20), gender varchar(20), email varchar(20), maritalstatus varchar(20), address varchar(40), city varchar(20), zip varchar(20), division varchar(30), religion varchar(20), category varchar(30), income varchar(30), education varchar(20), occupation varchar(20), nid varchar(20), passport varchar(20), seniorcitizen varchar(40), existingaccount varchar(20),accounttype varchar(20), card_num integer, pin varchar(20), facility varchar(100), primary key(card_num));
+
+create table account(cardNum varchar(10), date varchar(40), mode varchar(30), amount varchar(20));
+
+
